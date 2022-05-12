@@ -1,0 +1,14 @@
+GET http://localhost:3005/?limit=6
+###
+
+GET http://localhost:3005/?page=0&limit=2
+
+###
+
+PATCH  http://localhost:3005/:627b9153a31eb324d67c13e0
+
+{
+    "email" : "hello@gamil.com",
+    "updated_at" : "2020-09-01 13:09:00"
+}
+###
